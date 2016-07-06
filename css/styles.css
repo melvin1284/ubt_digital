@@ -1,0 +1,31 @@
+body{
+	
+}
+
+#header-wrap{
+	background-color: #d3d3d3;
+	padding:20px 0;
+}
+
+#ubt-menu{
+
+}
+#ubt-menu li{
+	float: left;
+	padding-right: 10px;
+
+}
+#ubt-menu li a{
+	color:#565656;
+	font-weight: bold;
+}
+
+#calendar-menu{
+	float: right;
+}
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1020px;
+    }
+}
