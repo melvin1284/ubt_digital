@@ -43,6 +43,7 @@
 			<span class="menu-header-title">Link 1</span>
 		</header>
 	</a> -->
+	<button class="toggle-button2 glyphicon glyphicon-remove pull-right"></button>
 
 	<section class="menu-section">
 		<ul id="left-menu" class="menu-section-list">
@@ -61,11 +62,10 @@
 </nav>
 
 
-<main id="panel" class="panel">
+<button class="toggle-button fixed"></button>
 
-	<header class="panel-header">
-    	<button class="toggle-button">☰</button>
-    </header>
+
+<main id="panel" class="panel">
 
 	<!-- Header -->
 	<div class="container-fluid" id="header-wrap">

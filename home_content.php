@@ -1,4 +1,4 @@
-<div id="section1" class="container-fluid">
+<div id="section1" class="container-fluid content-wrap">
 	<div class="container text-center">
 		<h2>We are a creative digital agency <br> with a difference</h2>
 		<p>we design and technical solutions for your business</p>
@@ -6,7 +6,7 @@
 </div>
 
 
-<div id="section2" class="container-fluid">
+<div id="section2" class="container-fluid content-wrap">
 	<div class="container">
 		<div class="scontent">
 			<h2>Connecting the community</h2>
@@ -17,7 +17,7 @@
 </div>
 
 
-<div id="section3" class="container-fluid">
+<div id="section3" class="container-fluid content-wrap">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
@@ -27,7 +27,7 @@
 				<p>UBT Digital is a new digital services offering focusing on bringing big brand capabilities to service small to medium enterprises. At our core we want to provide relevant digital services for businesses so that you can get on and focus on the business and leave digital to us.</p>
 			</div>
 			<div class="col-md-6" id="img-wrap">
-				<img src="images/img2.png">
+				<img src="images/img2-2.jpg">
 			</div>
 		</div>
 	</div>
@@ -35,7 +35,7 @@
 
 
 
-<div id="section4" class="container-fluid">
+<div id="section4" class="container-fluid content-wrap">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6" id="p1-wrap">
@@ -56,7 +56,7 @@
 </div>
 
 
-<div id="section5" class="container-fluid">
+<div id="section5" class="container-fluid content-wrap">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
@@ -95,7 +95,7 @@
 </div>
 
 
-<div id="section6" class="container-fluid">
+<div id="section6" class="container-fluid content-wrap">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
@@ -214,7 +214,7 @@
 </div>
 
 
-<div id="section7" class="container-fluid">
+<div id="section7" class="container-fluid content-wrap">
 	<div class="container">
 		<div class="row">
 

@@ -1,5 +1,5 @@
 
-        <div class="container-fluid" id="footer-wrap">
+        <div id="footer-wrap" class="container-fluid content-wrap">
             <div class="container">
                 <div class="row">
                     <div class="col-md-2">
@@ -28,16 +28,16 @@
                             <li><a href="#">Feedback</a><li>
                         </ul>
                     </div>
-                    <div class="col-md-6">
-                        <span>Signup for the Weekly Silver Bulletin</span>
-                        <form>
-                            <input type="text" />
-                            <input type="submit" name="submit" value="Sign Up" />
+                    <div class="col-md-6 text-right">
+                        <form method="post" action="#">
+                            <p>Signup for the Weekly Silver Bulletin</p>
+                            <input type="text" name="email" placeholder="Your Email" class="signup-email"  />
+                            <input type="submit" name="submit" value="Sign Up" class="btn-signup" />
                         </form>
                     </div>
                 </div>
 
-                <div class="row">
+                <div id="copyright" class="row">
                     <p>Copyright UBT MARKETING PTY LTD 2011-2016 
                     | All Rights Reserved 
                     | Copyright Policty 
@@ -66,8 +66,11 @@
             'side': 'right'
         });
 
-        // Toggle button
         document.querySelector('.toggle-button').addEventListener('click', function() {
+            slideout.toggle();
+            $(this).addClass('hidden');
+        });
+        document.querySelector('.toggle-button2').addEventListener('click', function() {
             slideout.toggle();
         });
 
@@ -77,6 +80,10 @@
 
         slideout.on('beforeclose', function() {
             document.querySelector('.fixed').classList.remove('fixed-open');
+        });
+
+        slideout.on('close', function(){
+            $('.toggle-button').removeClass('hidden');
         });
     </script>
 
